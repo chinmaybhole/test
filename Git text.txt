@@ -1,0 +1,15 @@
+-Config
+git config --global user.name 'Your name'
+git config --global user.email 'Your@email.com'
+-Add file (touch file.txt)
+git status
+-Staging area (git add file.txt)
+or (git add .) add everything
+-Commit (git commit -m "Commit msg")
+-Commit history (git log)
+-Location (git checkout <commit hash>or master or branch)
+-Branch (git branch new-branch-name)
+-List of branch (git branch)
+-Merge branch (git merge branch-name)
+-Remove directory (rm --cached file.txt)
+ and also commit the delete version
